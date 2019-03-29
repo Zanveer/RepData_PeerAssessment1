@@ -11,7 +11,7 @@ if(!file.exists('activity.csv')){
 }
 activityData <- read.csv('activity.csv')
 ```
-##### 2. Process/transform the data (if necessary) into a format suitable for your analysis
+##### 2. Process/transform the data (if necessary) into a format suitable for your analysis-
 
 ```r
 #activityData$interval <- strptime(gsub("([0-9]{1,2})([0-9]{2})", "\\1:\\2", activityData$interval), format='%H:%M')
